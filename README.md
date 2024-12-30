@@ -77,8 +77,6 @@ Antes de iniciar, certifique-se de que você tem as seguintes ferramentas instal
 
 ## Considerações Finais
 
-O projeto foi desenvolvido com base em conhecimentos próprios, vídeos do youtube no estilo tutorial e estudos a respeito do funcionamento do Angular. 
-
+O projeto foi desenvolvido com base em estudos a respeito do angular, aprendizado em prática e visualização de cursos e vídeos no YouTube.
 Obrigado pela atenção!
 
-♡( ◡‿◡ )

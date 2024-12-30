@@ -32,7 +32,7 @@ import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/
   providers: [
     provideClientHydration(withEventReplay()),
     provideAnimationsAsync(),
-    provideHttpClient(withFetch())  // Habilitando o uso de fetch
+    provideHttpClient(withFetch())
   ],
   bootstrap: [AppComponent]
 })
