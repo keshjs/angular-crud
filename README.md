@@ -61,7 +61,7 @@ Antes de iniciar, certifique-se de que você tem as seguintes ferramentas instal
    Execute o seguinte comando na raiz do projeto:
 
    ```bash
-   json-server --watch db.json --port 3000
+   json-server --watch db.json
    ```
 
    - O servidor JSON será iniciado em: [http://localhost:3000](http://localhost:3000).
@@ -75,26 +75,10 @@ Antes de iniciar, certifique-se de que você tem as seguintes ferramentas instal
 
    - O projeto Angular estará disponível em: [http://localhost:4200](http://localhost:4200).
 
-3. **Certifique-se de que o Angular está consumindo o JSON Server**
-   Verifique no código do projeto (geralmente em `src/environments/environment.ts`) se a URL base da API aponta para o JSON Server:
-   ```typescript
-   export const environment = {
-     production: false,
-     apiUrl: "http://localhost:3000",
-   };
-   ```
-
----
-
-## Scripts Disponíveis
-
-- `npm start`:
-  Inicia o projeto Angular (pode ser configurado para executar `ng serve`).
-- `json-server --watch db.json`:
-  Inicia o backend utilizando o JSON Server.
-
-
-
 ## Considerações Finais
 
-Agora você está pronto para trabalhar com o projeto Angular e o backend utilizando JSON Server. Para qualquer dúvida ou problema, consulte a documentação oficial ou entre em contato com o administrador do repositório.
+O projeto foi desenvolvido com base em conhecimentos próprios, vídeos do youtube no estilo tutorial e estudos a respeito do funcionamento do Angular. 
+
+Obrigado pela atenção!
+
+♡( ◡‿◡ )
